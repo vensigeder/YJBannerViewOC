@@ -7,5 +7,9 @@ target 'YJBannerViewDemo' do
 
   # Pods for YJBannerViewDemo
    pod 'SDWebImage'
+   pod 'YJCommonMacro'
+  # pod 'MJRefresh'
+  pod 'ChameleonFramework'
+  pod 'ZFPlayer'
 
 end

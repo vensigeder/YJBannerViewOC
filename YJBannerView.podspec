@@ -1,21 +1,20 @@
-version = "2.1";
+version = "2.3.8";
 
 Pod::Spec.new do |s|
 
     s.name         = "YJBannerView"
     s.version      = version
-    s.summary      = "YJBannerView 是一款超级好用的 BannerView 控件, Author's email:houmanager@Hotmail.com 工作地点:BeiJing 欢迎骚扰。"
+    s.summary      = "YJBannerView 轮播控件, Author's email:houmanager@Hotmail.com"
     s.description      = <<-DESC
-                        YJBannerView 是一款超级好用的 BannerView 控件, Author's email:houmanager@Hotmail.com 工作地点:BeiJing 欢迎骚扰. 欢迎一起交流.
+                        YJBannerView 轮播控件, Author's email:houmanager@Hotmail.com. Form Beijing
                             DESC
-    s.homepage     = "https://github.com/YJManager/YJBannerViewOC"
+    s.homepage     = "https://github.com/stackhou/YJBannerViewOC"
     s.license      = { :type => "MIT", :file => "LICENSE" }
     s.author       = { "houmanager" => "houmanager@Hotmail.com" }
     s.platform     = :ios, "7.0"
-    s.source       = { :git => "https://github.com/YJManager/YJBannerViewOC.git", :tag => "#{version}"}
-    s.source_files  = "YJBannerView/**/*.{h,m}"
+    s.source       = { :git => "https://github.com/stackhou/YJBannerViewOC.git", :tag => "#{version}"}
+    s.source_files  = "YJBannerViewDemo/YJBannerView/**/*.{h,m}"
+    s.resource     = 'YJBannerViewDemo/YJBannerView/Resource/YJBannerView.bundle'
     s.requires_arc = true
-
-    s.dependency 'SDWebImage', '~> 4.0.0'
 
 end
